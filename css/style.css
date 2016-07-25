@@ -83,6 +83,35 @@ body a {
   line-height: 70px;
 }
 
+#team {
+  background-color: #f4f4f4;
+}
+
+.member {
+  display: inline-block;
+  margin:20px;
+}
+
+.member>img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.member-name {
+  font-size: 25px;
+  font-weight: 900;
+  color:#084C61;
+}
+
+.member-title {
+  font-size: 20px;
+  color:#777;
+}
+
+.member > img, .member > div {
+  display: block;
+}
+
 
 h3>span{
   font-weight: 100;
@@ -139,58 +168,12 @@ h1.main-title a:hover{
 h3.tittle {
     font-weight: bold;
 }
-.staff2 {
-    text-align: center;
-    margin: 0 auto;
-}
-.staff{
-      background: #f4f4f4;
-        padding: 7em 0;
-}
-.staff2 img {
-    margin: 0 auto;
-}
-.staff1 h4{
-  color:#000;
-  font-size:1em;
-  text-transform:uppercase;
-  font-weight:600;
-} 
-.staff1 p{
-  color: #777;
-  font-size: 0.85em;
-  line-height: 1.8em;
-  font-weight: 300;
-  margin-bottom:1em;
-}
 .container_wrap{
   margin:0 auto;
   width:77%;
 }
 
 
-.staff2 h3{
-      font-size: 1.2em;
-    font-weight: 600;
-    margin: 20px 0 0 0;
-    text-align: center;
-}
-.staff2 h3 a{
-      color: #333;
-        font-size: 2em;
-}
- .staff2 h3 a:hover{
-  color: #3EAABF;
-   text-decoration:none;  
-}
-.staff2 p {
-    color: #777;
-    font-weight: 500;
-    text-align: center;
-    margin: 8px 0;
-    line-height: 1.9em;
-    padding: 0 16px;
-}
 ul.s_social{
   padding:0;
   list-style:none;
@@ -323,11 +306,6 @@ h3.tittle,h2.tittle {
 }
 @media (max-width:1280px){
 
-
-  .staff2 p {
-    margin: 8px 0;
-    padding: 0 0px;
-  }
   h3.tittle,h2.tittle {
     font-size: 4.5em;
     margin-bottom: 1em;
@@ -390,7 +368,7 @@ h3.tittle,h2.tittle {
 
 }
 
-/* half screen */
+/*iPhone I think*/
 @media (max-width:991px){
   
   .large-header {
@@ -400,18 +378,6 @@ h3.tittle,h2.tittle {
   #subheader >p{
     font-size: 25px;
   }
-
-  .staff2 {
-    text-align: center;
-    margin: 0 auto;
-    float: left;
-    width: 50%;
-    margin-bottom: 3em;
-  }
-  .staff {
-    padding: 7em 0 5em 0;
-  }
-
   #about>div {
      font-size: 20px;
      font-weight:100;
@@ -420,15 +386,45 @@ h3.tittle,h2.tittle {
      line-height: 40px;
   }
 
-
-
   #about {
     padding: 40px;
+  }
+
+  #about > div {
+    font-size: 55px;
+    line-height: 75px;
   }
 
   #faq >.container {
     width:100%;
     padding:40px;
+  }
+
+  #faq > .container  > p {
+    font-size: 40px;
+  }
+
+  #faq > .container > h3 {
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  h3.tittle {
+    font-size: 80px;
+  }
+
+  .member {
+    width: 70%;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .member-name {
+    font-size: 45px;
+  }
+
+  .member-title {
+    font-size: 30px;
   }
 
 }
@@ -552,17 +548,6 @@ h3.tittle,h2.tittle {
   1.title a {
     font-size: 1.4em;
   }
-  .staff {
-    padding: 5em 0 4em 0;
-  }
-  .staff2 {
-    text-align: center;
-    margin: 0 auto;
-    float: left;
-    width: 100%;
-    margin-bottom: 3em;
-  }
-
   #about {
     padding:30px;
   }
@@ -592,12 +577,7 @@ h3.tittle,h2.tittle {
   
 }
 @media (max-width:414px){
-  .staff {
-    padding:4em 0 3em 0;
-  }
-  .team {
-    margin-top: 3em;
-  }
+  
   h3.tittle, h2.tittle {
     font-size: 3.5em;
     margin-bottom: 0.6em;
