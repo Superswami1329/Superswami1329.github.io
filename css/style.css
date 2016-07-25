@@ -100,7 +100,6 @@ body a {
 .member-name {
   font-size: 25px;
   font-weight: 900;
-  color:#084C61;
 }
 
 .member-title {
@@ -368,32 +367,15 @@ h3.tittle,h2.tittle {
 
 }
 
-/*iPhone I think*/
+/*  screen */
 @media (max-width:991px){
-
-  h1.main-title a {
-    font-size: 200px;
-    top:-200px;
-  }
-
-  #students {
-    height: 500px;
-  }
-
-  .stat {
-    line-height: 78px;
-  }
-
-  .stat-number{
-      font-size: 150px;
-  }
-
-  .demo-2 .large-header {
-    height:200px;
+  
+  .large-header {
+    height:100px;
   }
 
   #subheader >p{
-    font-size: 75px;
+    font-size: 25px;
   }
   #about>div {
      font-size: 20px;
@@ -407,45 +389,9 @@ h3.tittle,h2.tittle {
     padding: 40px;
   }
 
-  #about > div {
-    font-size: 55px;
-    line-height: 75px;
-  }
-
   #faq >.container {
     width:100%;
     padding:40px;
-  }
-
-  #faq > .container  > p {
-    font-size: 40px;
-  }
-
-  #faq > .container > h3 {
-    font-weight: 900;
-    font-size: 50px;
-  }
-
-  h3.tittle {
-    font-size: 80px;
-  }
-
-  #team {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .member {
-    width: 40%;
-    display: inline-block;
-  }
-
-  .member-name {
-    font-size: 45px;
-  }
-
-  .member-title {
-    font-size: 30px;
   }
 
 }
