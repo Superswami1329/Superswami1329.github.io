@@ -370,13 +370,30 @@ h3.tittle,h2.tittle {
 
 /*iPhone I think*/
 @media (max-width:991px){
-  
-  .large-header {
-    height:100px;
+
+  h1.main-title a {
+    font-size: 200px;
+    top:-200px;
+  }
+
+  #students {
+    height: 500px;
+  }
+
+  .stat {
+    line-height: 78px;
+  }
+
+  .stat-number{
+      font-size: 150px;
+  }
+
+  .demo-2 .large-header {
+    height:200px;
   }
 
   #subheader >p{
-    font-size: 25px;
+    font-size: 75px;
   }
   #about>div {
      font-size: 20px;
@@ -413,10 +430,14 @@ h3.tittle,h2.tittle {
     font-size: 80px;
   }
 
+  #team {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .member {
-    width: 70%;
-    padding-left: 100px;
-    padding-right: 100px;
+    width: 40%;
+    display: inline-block;
   }
 
   .member-name {
