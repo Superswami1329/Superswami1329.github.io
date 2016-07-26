@@ -464,6 +464,7 @@ h3.tittle,h2.tittle {
 
   #subheader {
     width:450px;
+    margin-bottom: 50px;
   }
 
   #subheader > p{
