@@ -462,8 +462,14 @@ h3.tittle,h2.tittle {
     font-size: 20px;
   }
 
+  #subheader {
+    width:450px;
+  }
+
   #subheader > p{
     font-size: 20px;
+    line-height: 20px;
+    margin: 7px;
   }
   
 }
