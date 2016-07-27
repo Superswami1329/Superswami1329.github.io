@@ -172,7 +172,6 @@ h3.tittle {
   width:77%;
 }
 
-
 ul.s_social{
   padding:0;
   list-style:none;
@@ -329,7 +328,6 @@ h3.tittle,h2.tittle {
 
 }
 @media (max-width:1024px){
-
 
   h3.tittle,h2.tittle {
     font-size: 4.5em;
@@ -536,9 +534,15 @@ h3.tittle,h2.tittle {
     padding:10px;
   }
 
+  #subheader {
+    width: 200px;
+    margin-top: -40px;
+  }
+
   #subheader > p{
     font-size: 15px;
     top:100px;
+
   }
 
 }
