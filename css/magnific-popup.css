@@ -254,7 +254,8 @@ button::-moz-focus-inner {
   background: black; }
 
 .mfp-iframe-holder .mfp-close {
-  top: -40px; }
+  top: -40px; 
+}
 
 /* Main image in popup */
 img.mfp-img {
