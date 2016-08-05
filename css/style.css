@@ -21,20 +21,40 @@ body a {
     text-align: center;
 }
 
+#register > .tittle {
+  color:white;
+}
+
+input[type = submit] {
+  text-decoration: none;
+  background-color: #FFAA0A;
+  border: none;
+  height: 60px;
+  width: 140px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
 #subheader {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
   width:1000px;
 }
 
 #subheader >p {
   color:white;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
   top:200px;
   font-weight: 900;
   display: inline-block;
   margin:15px;
+}
+
+#register {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
+  background-attachment: fixed;
 }
 
 
@@ -50,6 +70,7 @@ body a {
   background-color:white;
   padding-bottom: 0px;
   color: #084c61;
+  padding-bottom: 50px;
 }
 
 #faq>.container{
@@ -64,15 +85,20 @@ body a {
   font-size: 30px;
 }
 
-#faq>.container>p {
+#faq>.container>p { 
     color:#084c61;
     font-size: 20px;
+    position: relative;
 }
 
 #students {
-  background-image: url("../images/bannerthing.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
+      background-size: cover;
+    background-position: center center;
   background-repeat: no-repeat;
   padding: 50px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .stat {
@@ -111,7 +137,6 @@ body a {
   display: block;
 }
 
-
 h3>span{
   font-weight: 100;
 }
@@ -119,6 +144,50 @@ h3>span{
 a:hover{
  text-decoration:none;
 }
+
+#time {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#footer {
+  background-image: url(../images/space.jpg);
+  background-attachment: fixed;
+  padding: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.topF {
+  display: inline-block;
+  vertical-align: top;
+  width:33%;
+}
+
+.topF > p {
+  color:white;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.topF > p > span {
+  color:#DB3A34;
+}
+
+.topF > p > a {
+  color:white;
+}
+
+.bottomF {
+  padding-top:40px;
+}
+
+.bottomF > p {
+  color:white;
+}
+
 input[type="button"],input[type="submit"],li.parallelogram{
   transition:0.5s all;
   -webkit-transition:0.5s all;
@@ -412,6 +481,7 @@ h3.tittle,h2.tittle {
     top:150px;
   }
 
+
   h3.tittle,h2.tittle {
     font-size: 4em;
     margin-bottom: 0.6em;
@@ -425,6 +495,16 @@ h3.tittle,h2.tittle {
   .banner {
     min-height:320px;
   }
+
+  .topF {
+    display: block;
+    width:100%;
+  }
+
+  .topF > p{
+    padding: 15px;
+  }
+
 }
 @media (max-width:768px){
 
