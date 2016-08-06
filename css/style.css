@@ -151,6 +151,13 @@ a:hover{
   background-attachment: fixed;
 }
 
+.clock {
+  color:white;
+  width:250px;
+  display: inline-block;
+  margin: 20px;
+}
+
 #footer {
   background-image: url(../images/space.jpg);
   background-attachment: fixed;
@@ -507,6 +514,14 @@ h3.tittle,h2.tittle {
 
 }
 @media (max-width:768px){
+
+  .clock {
+    margin: 10px;
+  }
+
+  #time {
+    padding: 10px;
+  }
 
   #faq > .container {
     margin-top: 30px;
