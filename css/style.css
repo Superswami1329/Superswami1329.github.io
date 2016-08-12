@@ -565,6 +565,10 @@ h3.tittle,h2.tittle {
     width: 85%;
   }
 
+  h3.tittle {
+    font-size: 105px;
+  }
+
 }
 @media (max-width:640px){
   .banner-center h3 {
