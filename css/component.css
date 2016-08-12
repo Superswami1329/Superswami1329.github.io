@@ -158,10 +158,10 @@ h1.main-title a:focus{
 }
 
 .link--takiri span {
-	font-size: 25%;
-    font-weight: 400;
+	font-size: 30%;
+    font-weight: 900;
     position: absolute;
-    right: 15px;
+    right:12px;
     color: #fff;
     bottom: -22px;
     opacity: 0;
@@ -238,7 +238,15 @@ h1.main-title a:focus{
 	div#large-header {
 	}
 
-	
+	.link--takiri {
+    font-size: 4em;
+  }
+
+  	.link--takiri > span {
+  				right: -73px;
+
+  	}
+
 }
 @media only screen and (max-width :736px) {
 	.demo-2 .main-title {
@@ -272,6 +280,8 @@ h1.main-title a:focus{
 		font-size: 1.3em;
 	}
 
+	
+
 }
 @media only screen and (max-width :480px) {
 	div#large-header {
@@ -281,7 +291,7 @@ h1.main-title a:focus{
          height: 566px!important;
 	}
 	.link--takiri span {
-		font-size: 17px;
+		font-size: 20px;
 		font-weight: 400;
 		position: absolute;
 		right: -73px;
@@ -300,17 +310,24 @@ h1.main-title a:focus{
 	}
 	.link--takiri span {
 		font-weight: 100;
+		font-size: 15px;
 		position: absolute;
-		right: 15px;
+		right: 12px;
 		bottom: -22px;
 	}
 	div#large-header {
 		height:300px!important;
 	}
+
+
 }
 @media only screen and (max-width :320px) {
 	.demo-2 .main-title {
 		font-size: 0.9em;
+	}
+
+	.link--takiri {
+		font-size: 5em;
 	}
 	
 	canvas#demo-canvas {
