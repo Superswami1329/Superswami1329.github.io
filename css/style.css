@@ -44,7 +44,7 @@ input[type = submit] {
 
 #subheader >p {
   color:white;
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
   top:200px;
   font-weight: 900;
@@ -156,6 +156,14 @@ a:hover{
   width:250px;
   display: inline-block;
   margin: 20px;
+}
+
+#time > .tittle {
+  color:white;
+}
+
+#time {
+  padding-bottom: 40px;
 }
 
 #footer {
@@ -463,7 +471,7 @@ h3.tittle,h2.tittle {
   }
 
   #subheader >p{
-    font-size: 25px;
+    font-size: 35px;
   }
   #about>div {
      font-size: 20px;
@@ -483,11 +491,6 @@ h3.tittle,h2.tittle {
   
 }
 @media (max-width:800px){
-
-  #subheader > p {
-    top:150px;
-  }
-
 
   h3.tittle,h2.tittle {
     font-size: 4em;
@@ -525,22 +528,41 @@ h3.tittle,h2.tittle {
 
   #faq > .container {
     margin-top: 30px;
-    width:auto;
+    width:40%;
   }
 
   #faq > .container > p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 40px;
   }
+
+  #team {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #faq > .container > h3 {
+    font-size: 25px;
+  }
+
+  #time {
+    padding-top: 40px;
+  }
+
 
 }
 @media (max-width:737px){
   #subheader >p{
-    font-size: 20px;
+    font-size: 30px;
   }
 
-  #faq>.container>h3 {
-    
+  #faq {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #faq > .container {
+    width: 40%;
   }
 
 }
@@ -560,6 +582,14 @@ h3.tittle,h2.tittle {
   h1.title {
       padding:2.5em 10px 20px;
   }
+  #faq > .container > p {
+    line-height: 25px;
+  }
+
+  #team {
+    padding-top: 20px;
+  }
+
 }
 @media (max-width:600px){
   #about>div{
@@ -584,8 +614,9 @@ h3.tittle,h2.tittle {
     margin-bottom: 50px;
   }
 
+
   #subheader > p{
-    font-size: 20px;
+    font-size: 30px;
     line-height: 20px;
     margin: 7px;
   }
@@ -630,12 +661,13 @@ h3.tittle,h2.tittle {
   }
 
   #subheader {
-    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-top: -40px;
   }
 
   #subheader > p{
-    font-size: 15px;
+    font-size: 20px;
     top:100px;
 
   }
