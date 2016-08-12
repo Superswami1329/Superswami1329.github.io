@@ -562,7 +562,7 @@ h3.tittle,h2.tittle {
   }
 
   #faq > .container {
-    width: 40%;
+    width: 85%;
   }
 
 }
@@ -584,6 +584,10 @@ h3.tittle,h2.tittle {
   }
   #faq > .container > p {
     line-height: 25px;
+  }
+
+  #faq {
+    padding: 0px;
   }
 
   #team {
