@@ -115,7 +115,8 @@ input[type = submit] {
 
 .member {
   display: inline-block;
-  margin:20px;
+  margin-left:30px;
+  margin-right: 30px;
 }
 
 .member>img {
@@ -470,6 +471,12 @@ h3.tittle,h2.tittle {
     height:100px;
   }
 
+  .member {
+    margin: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
   #subheader >p{
     font-size: 35px;
   }
@@ -490,6 +497,13 @@ h3.tittle,h2.tittle {
   }
   
 }
+
+@media (max-width: 880px) {
+  .member {
+      margin: 30px;
+  }
+}
+
 @media (max-width:800px){
 
   h3.tittle,h2.tittle {
@@ -513,6 +527,11 @@ h3.tittle,h2.tittle {
 
   .topF > p{
     padding: 15px;
+  }
+
+  .member {
+    margin-right: 40px;
+    margin-left: 40px;
   }
 
 }
@@ -549,6 +568,11 @@ h3.tittle,h2.tittle {
     padding-top: 40px;
   }
 
+  .member {
+    width: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 
 }
 @media (max-width:737px){
@@ -562,8 +586,8 @@ h3.tittle,h2.tittle {
   }
 
   #faq > .container {
-    width: 85%;
-  }
+    width:40%;
+  }  
 
 }
 @media (max-width:640px){
@@ -594,8 +618,14 @@ h3.tittle,h2.tittle {
     padding-top: 20px;
   }
 
+
 }
 @media (max-width:600px){
+
+  #faq > .container {
+    width: 85%;
+  }
+
   #about>div{
     padding:0px;
   }
@@ -627,6 +657,11 @@ h3.tittle,h2.tittle {
   
 }
 @media (max-width:568px){
+
+  .clock {
+    width:40%;
+  }
+
   h1.title a {
     font-size: 1.4em;
   }
@@ -678,6 +713,16 @@ h3.tittle,h2.tittle {
 
 }
 @media (max-width:480px){
+
+    #time {
+      padding: 10px;
+      padding-top: 30px;
+    }
+
+  .clock {
+    width: 40%;
+  }  
+
   1.title a {
     font-size: 1.4em;
   }
@@ -709,6 +754,8 @@ h3.tittle,h2.tittle {
   }
   
 }
+
+/*iPhone 6s*/
 @media (max-width:414px){
   
   h3.tittle, h2.tittle {
@@ -729,6 +776,21 @@ h3.tittle,h2.tittle {
       padding:0px;
       padding-top:20px; 
   }  
+
+  .member div {
+    font-size: 17px;
+  }
+
+  #team {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .member {
+    margin: 20px;
+  }
+
 }
 @media (max-width:384px){
   p {
@@ -751,6 +813,8 @@ h3.tittle,h2.tittle {
   }
 
 }
+
+/*iPhone 6*/
 @media (max-width:375px){
 
   h3.tittle, h2.tittle {
@@ -773,6 +837,17 @@ p{
 }
 h3.tittle {
     color:#DB3A34;
+}
+
+
+/*iPhone 5*/
+@media (max-width: 321px){
+  .member-name {
+    font-size: 400px;
+  }
+  .member-title {
+    font-size:4000px;
+  }
 }
 
 *  {
