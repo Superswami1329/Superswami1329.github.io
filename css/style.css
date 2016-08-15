@@ -25,6 +25,34 @@ body a {
   color:white;
 }
 
+#thing div {
+  display: inline-block;
+}
+
+
+#schedule {
+  padding: 20px;
+  padding-top: 40px;
+}
+
+#thing div {
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.event {
+  width: 300px;
+  text-align: left;
+
+}
+
+.period > p{
+  text-align: left;
+  width:200px;
+  color:#DB3A34;
+  font-weight: 900;
+}
+
 input[type = submit] {
   text-decoration: none;
   background-color: #FFAA0A;
@@ -529,12 +557,11 @@ h3.tittle,h2.tittle {
     padding: 15px;
   }
 
-  .member {
-    margin-right: 40px;
-    margin-left: 40px;
-  }
+  
 
 }
+
+/*iPad*/
 @media (max-width:768px){
 
   .clock {
@@ -556,8 +583,6 @@ h3.tittle,h2.tittle {
   }
 
   #team {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 
   #faq > .container > h3 {
@@ -567,13 +592,6 @@ h3.tittle,h2.tittle {
   #time {
     padding-top: 40px;
   }
-
-  .member {
-    width: 30%;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-
 }
 @media (max-width:737px){
   #subheader >p{
@@ -588,6 +606,11 @@ h3.tittle,h2.tittle {
   #faq > .container {
     width:40%;
   }  
+  
+  .member {
+    margin: 20px;
+    width: 40%;
+  }
 
 }
 @media (max-width:640px){
@@ -723,7 +746,7 @@ h3.tittle,h2.tittle {
     width: 40%;
   }  
 
-  1.title a {
+  .title a {
     font-size: 1.4em;
   }
   #about {
@@ -757,6 +780,30 @@ h3.tittle,h2.tittle {
 
 /*iPhone 6s*/
 @media (max-width:414px){
+
+  #schedule {
+    padding: 10px;
+  }
+
+  #thing div {
+    display: block;
+    font-size: 15px;
+    line-height: 10px;
+    margin:5px;
+  }
+
+  #thing p {
+      line-height: 30px;
+  }
+
+  #thing {
+    margin-bottom: 40px;
+  }
+
+  .member span:after {
+    content:"\a";
+    white-space: pre;
+  }
   
   h3.tittle, h2.tittle {
     font-size: 3.5em;
