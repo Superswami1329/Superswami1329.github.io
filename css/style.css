@@ -189,10 +189,12 @@ a:hover{
 }
 
 #time {
-    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway.jpg);
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway.jpg);
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway1.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway1.jpg);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .clock {
