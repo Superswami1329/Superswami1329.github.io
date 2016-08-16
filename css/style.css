@@ -81,6 +81,7 @@ input[type = submit] {
 }
 
 #register {
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
   background-attachment: fixed;
 }
@@ -120,6 +121,7 @@ input[type = submit] {
 }
 
 #students {
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
       background-size: cover;
     background-position: center center;
@@ -187,6 +189,7 @@ a:hover{
 }
 
 #time {
+    background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway.jpg);
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -314,9 +317,6 @@ ul.s_social li{
 
 .view-fifth img {
    -webkit-transition: all 0.3s ease-in-out;
-   -moz-transition: all 0.3s ease-in-out;
-   -o-transition: all 0.3s ease-in-out;
-   -ms-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
        border-radius: 50%;
   -o-border-radius: 50%;
@@ -326,17 +326,11 @@ ul.s_social li{
 }
 .view-fifth .mask {
    -webkit-transform: translateX(-300px);
-   -moz-transform: translateX(-300px);
-   -o-transform: translateX(-300px);
-   -ms-transform: translateX(-300px);
    transform: translateX(-300px);
    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
    filter: alpha(opacity=100);
    opacity: 1;
    -webkit-transition: all 0.3s ease-in-out;
-   -moz-transition: all 0.3s ease-in-out;
-   -o-transition: all 0.3s ease-in-out;
-   -ms-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;
    border-radius: 50%;
     -o-border-radius: 50%;
