@@ -141,10 +141,22 @@ input[type = submit] {
   background-color: #f4f4f4;
 }
 
+#team {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#time {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
 .member {
   display: inline-block;
-  margin-left:30px;
-  margin-right: 30px;
+  margin: 40px;
+  margin-left:40px;
+  margin-right:40px;
 }
 
 .member>img {
@@ -494,7 +506,7 @@ h3.tittle,h2.tittle {
 
 /*  screen */
 @media (max-width:991px){
-  
+
   .large-header {
     height:100px;
   }
@@ -518,6 +530,13 @@ h3.tittle,h2.tittle {
 
   #about {
     padding: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  #about > div {
+    font-size: 25px;
+    line-height: 45px;
   }
 
   .stat {
