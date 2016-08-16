@@ -613,6 +613,7 @@ h3.tittle,h2.tittle {
   }
 }
 @media (max-width:737px){
+
   #subheader >p{
     font-size: 30px;
   }
@@ -628,7 +629,7 @@ h3.tittle,h2.tittle {
   
   .member {
     margin: 20px;
-    width: 40%;
+    width: 35%;
   }
 
 }
