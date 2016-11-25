@@ -123,8 +123,8 @@ input[type = submit] {
 #students {
   background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
-      background-size: cover;
-    background-position: center center;
+  background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   padding: 50px;
   background-size: cover;
@@ -157,8 +157,8 @@ input[type = submit] {
 .member {
   display: inline-block;
   margin: 40px;
-  margin-left:40px;
-  margin-right:40px;
+  margin-left:70px;
+  margin-right:70px;
 }
 
 .member>img {
