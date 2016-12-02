@@ -1,0 +1,7 @@
+.subhead > p {
+	display: block;
+	color:white;
+	font-size: 20px;
+	position: relative;
+	top:200px;
+}
