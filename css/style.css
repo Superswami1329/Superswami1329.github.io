@@ -767,6 +767,10 @@ h3.tittle,h2.tittle {
 }
 @media (max-width:480px){
 
+    .clock {
+        width:50%;
+    }
+
     #subub {
         right:0px;
         bottom:20px;
