@@ -383,6 +383,16 @@ h3.tittle,h2.tittle {
    line-height: 75px;
 }
 
+.container_big {
+    width: 90%;
+}
+
+#rocket {
+    height:150px;
+    position: relative;
+    bottom: 20px;
+}
+
 @media (max-width:1440px){
   .wrap {
     margin: 0 auto;
@@ -502,6 +512,10 @@ h3.tittle,h2.tittle {
 
 /*  screen */
 @media (max-width:991px){
+
+    #rocket {
+        height:100px;
+    }
 
   .large-header {
     height:100px;
