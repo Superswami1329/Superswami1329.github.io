@@ -767,6 +767,11 @@ h3.tittle,h2.tittle {
 }
 @media (max-width:480px){
 
+    #subub {
+        right:0px;
+        bottom:20px;
+    }
+
     #time {
       padding: 10px;
       padding-top: 30px;
