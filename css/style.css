@@ -162,8 +162,8 @@ input[type = submit] {
 }
 
 .member>img {
-  border-radius: 50%;
   width: 100%;
+    max-width: 200px;
 }
 
 .member-name {
@@ -953,7 +953,8 @@ h3.tittle {
 font-family: Helvetica;
 }
 
-/*#team {
+/*
+#team {
     padding:0px;
 }
 
