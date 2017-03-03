@@ -107,8 +107,8 @@ input[type = submit] {
 }
 
 #register {
-  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back.jpg');
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Earth.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/Earth.jpg');
   background-attachment: fixed;
 }
 
@@ -147,8 +147,8 @@ input[type = submit] {
 }
 
 #students {
-  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/back1.jpg');
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/New_Rocket_Launch.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/New_Rocket_Launch.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -215,8 +215,8 @@ a:hover{
 }
 
 #time {
-  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway1.jpg);
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/milkyway1.jpg);
+  background: -webkit-linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/Andromeda.jpg);
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/Andromeda.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -239,7 +239,7 @@ a:hover{
 }
 
 #footer {
-  background-image: url(../images/space.jpg);
+  background-image: url(../images/Stars.jpg);
   background-attachment: fixed;
   padding: 0px;
   padding-top: 40px;
