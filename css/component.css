@@ -24,7 +24,7 @@ ul.side_nav li {
 }
 
 .demo-2 .large-header {
- 	background-image: url('../images/banner3.jpg');
+ 	background-image: url('../images/New_Rocket.jpg');
  	background-repeat: no-repeat;
  	background-position: center bottom;
 	background-attachment: fixed;
@@ -130,10 +130,13 @@ h1.main-title a:focus{
     padding: 0 10px 20px;
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
+	transform-origin: 50% 100%;
+
 }
 
 .link--takiri:hover {
 	color: #1e1a1b;
+	transform-origin: 50% 100%;
 }
 
 .link--takiri::before {
@@ -150,9 +153,11 @@ h1.main-title a:focus{
     transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
+	transform-origin: 50% 100%;
 }
 
 .link--takiri:hover:before {
+	transform-origin: 50% 100%;
 	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 }
@@ -257,6 +262,16 @@ h1.main-title a:focus{
 
 	.demo-2 .large-header {
  		background-attachment: scroll;
+	}
+
+	.link--takiri:before {
+		transform-origin: 60% 180%;
+	}
+
+	.link--takiri:hover:before {
+		transform-origin: 60% 180%;
+		-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+		transform: rotate3d(0,0,1,45deg) scale3d(1,0.5,1);
 	}
 
 	
