@@ -96,7 +96,7 @@ p.title {
 	left: 50%;
 	border-radius: 50%;
 	z-index: -1;
-	-webkit-transform: translate3d(-50%,-50%,0);
+	-webkit-transform: translate3d(-50%,-100%,0);
 	transform: translate3d(-50%,-50%,0);
 }
 h1.main-title a {
@@ -125,56 +125,51 @@ h1.main-title a:focus{
 }
 /* Takiri */
 .link--takiri {
-    font-weight: 400;
-    font-size: 4em;
-    padding: 0 10px 20px;
+	font-weight: 400;
+	font-size: 4em;
+	padding: 0 10px 20px;
 	-webkit-transition: color 0.5s;
 	transition: color 0.5s;
-	transform-origin: 50% 100%;
-
 }
 
 .link--takiri:hover {
 	color: #1e1a1b;
-	transform-origin: 50% 100%;
 }
 
 .link--takiri::before {
 	content: '';
-    position: absolute;
-    height: 36px;
-    width: 100%;
-    top: 50%;
-    margin-top: -18px;
-    left: -1%;
-    z-index: -1;
-    background: rgba(241, 236, 236, 0.47);
-    -webkit-transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
-    transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
-    -webkit-transition: -webkit-transform 0.5s;
-    transition: transform 0.5s;
-	transform-origin: 50% 100%;
+	position: absolute;
+	height: 36px;
+	width: 100%;
+	top: 50%;
+	margin-top: -18px;
+	left: -1%;
+	z-index: -1;
+	background: rgba(241, 236, 236, 0.47);
+	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
+	transform: rotate3d(0,0,1,45deg) scale3d(0,1,1);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
 }
 
 .link--takiri:hover:before {
-	transform-origin: 50% 100%;
 	-webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 	transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
 }
 
 .link--takiri span {
 	font-size: 30%;
-    font-weight: 900;
-    position: absolute;
-    right:12px;
-    color: #fff;
-    bottom: -22px;
-    opacity: 0;
-    -webkit-transform: translate3d(-10px,-10px,0);
-    transform: translate3d(-10px,-10px,0);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-    letter-spacing: 2px;
+	font-weight: 900;
+	position: absolute;
+	right:12px;
+	color: #fff;
+	bottom: -22px;
+	opacity: 0;
+	-webkit-transform: translate3d(-10px,-10px,0);
+	transform: translate3d(-10px,-10px,0);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	letter-spacing: 2px;
 }
 
 .link--takiri:hover span {
