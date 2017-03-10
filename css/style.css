@@ -225,9 +225,11 @@ a:hover{
 
 .clock {
   color:white;
+  height:250px;
   width:250px;
   display: inline-block;
   margin: 20px;
+
 }
 
 #time > .tittle {
