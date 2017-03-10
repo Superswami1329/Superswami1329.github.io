@@ -30,6 +30,7 @@ body a {
 }
 
 
+
 #schedule {
   padding: 20px;
   padding-top: 40px;
@@ -73,10 +74,14 @@ body a {
 }
 
 .period > p{
-  text-align: left;
+  text-align: right;
   width:200px;
   color:#DB3A34;
   font-weight: 900;
+}
+
+#thing {
+
 }
 
 input[type = submit] {
@@ -865,7 +870,7 @@ h3.tittle,h2.tittle {
   }
 
   #thing div {
-    display: block;
+    display: inline-block;
     font-size: 15px;
     line-height: 10px;
     margin:5px;
@@ -877,6 +882,7 @@ h3.tittle,h2.tittle {
 
   #thing {
     margin-bottom: 40px;
+    width:50%;
   }
 
   .member span:after {
