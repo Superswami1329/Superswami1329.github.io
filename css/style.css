@@ -81,7 +81,7 @@ body a {
 }
 
 #thing {
-
+  display:inline-block;
 }
 
 input[type = submit] {
