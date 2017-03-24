@@ -25,6 +25,8 @@ body a {
   color:white;
 }
 
+
+
 #thing div {
   display: inline-block;
 }
@@ -852,6 +854,10 @@ h3.tittle,h2.tittle {
 
 /*iPhone 6s*/
 @media (max-width:414px){
+
+    #thing {
+        margin-right:80px;
+    }
 
   #students {
     background-attachment: scroll;
