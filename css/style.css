@@ -203,7 +203,39 @@ h1 {
 
 /*iPhone 6+*/
 @media (max-width:414px){
+    #main {
+        font-size: 70px;
 
+    }
+    #sub {
+        font-size:40px;
+    }
+
+    #title {
+        top: 25%;
+    }
+    #title > span > span {
+        font-size:20px;
+    }
+
+    #about > p {
+        padding-right:5px;
+        padding-left:5px;
+        font-size:25px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    #about > p {
+        line-height: 140%;
+    }
+}
+
+@media (max-width: 320px) {
+    #title {
+        top:15%;
+    }
 }
 
 
