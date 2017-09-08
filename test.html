@@ -1,52 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-div.scrollmenu {
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-}
+  <title>Hack HSV II</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-div.scrollmenu a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-div.scrollmenu a:hover {
-    background-color: #777;
-}
-</style>
+  <!--Hack HSV -->
+  <link rel = "stylesheet" href = "css/style.css">
+  <link rel = "stylesheet" href = "css/stars.css">
+
 </head>
-<body>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<div class="scrollmenu">
-  <a href="#home">
-    <img src="images/small/1.jpg" height = "300" width = "400">
-    <img src = "images/small/2.jpg" height="300" width="400">
-</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#support">Support</a>
-  <a href="#blog">Blog</a>
-  <a href="#tools">Tools</a>  
-  <a href="#base">Base</a>
-  <a href="#custom">Custom</a>
-  <a href="#more">More</a>
-  <a href="#logo">Logo</a>
-  <a href="#friends">Friends</a>
-  <a href="#partners">Partners</a>
-  <a href="#people">People</a>
-  <a href="#work">Work</a>
+<!-- NavBar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#mainNavBar">
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Hack HSV II</a>
+    </div>
+
+
+    <div class = "collapse navbar-collapse" id = "mainNavBar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <!--<li><a href = "#">Sign Up</a></li>-->
+        <li><a href="#faq">FAQ</a></li>
+        <!--<li><a href="#">Sponsors</a></li>-->
+        <!--<li><a href = "#">Contact</a></li>-->
+      </ul>
+    </div>
+
+
+  </div>
+</nav>
+
+<!--Header-->
+<div class="bg" id = "home">
+  <div id='stars'></div>
+  <div id='stars2'></div>
+  <div id='stars3'></div>
+  <div id='title'>
+    <span id = "main" class = "wow fadeIn animated">
+      HACK HSV II
+    </span><br/>
+    <span id = "sub" class = "wow fadeIn animated">
+      High School Hackathon<br/>
+      <span id = "info" class = "wow fadeIn animated">
+        January 2018 | 12 Hours | Huntsville, Alabama
+      </span>
+    </span>
+  </div>
 </div>
 
-<h2>Horizontal Scrollable Menu</h2>
-<p>Resize the browser window to see the effect.</p>
+<!--About-->
+<div class = "container" id = "about">
+  <h1>Hack HSV is for <span id = "elem"></span></h1>
+  <div class = "container container-fluid" id = "pictures" style = "padding:10px;">
+    <div class = "col-xs-12 col-md-2 col-md-offset-3" style = "background-color: #FFAE03; height: 2px;"></div>
+    <div class = "col-xs-12 col-md-2" style = "background-color: #c9302c; height: 2px;"></div>
+    <div class = "col-xs-12 col-md-2" style = "background-color: #2095f0; height: 2px;"></div>
+  </div>
+  <p>
+    Hack HSV is the first ever high school hackathon in Alabama.
+    Hack HSV is a 12 hour problem solving marathon where you will collaborate with friends
+    to solve a problem, that will be announced at the competition, based on the theme of space.
+    You will meet new people, learn new skills, and, of course, code.
+    Hack HSV’s mission is to spread the love of programming and innovation to everyone
+    by making our event as accessible as possible.
+  </p>
+
+</div>
+
+<!--Gallery-->
+<div class = "container-fluid container" id = "gallery">
+  <div class = "row">
+    <img src = "images/4.jpg" class = "img-responsive col-md-4" style = "padding:0px;" height="200"/>
+    <img src = "images/1.jpg" class = "img-responsive col-md-4 col-xs-6" style = "padding:0px;" height="200"/>
+    <img src = "images/4.jpg" class = "img-responsive col-md-4 col-xs-6" style = "padding:0px; height="200"/>
+
+  </div>
+
+</div>
+
+<!--hr-->
+
+
+<!--FAQ-->
+<div class = "container-fluid container" style = "padding-top:0px; padding-left:30px; padding-right:30px;" id = "faq">
+  <h1 >FAQ's</h1>
+  <div class = "container container-fluid" id = "pictures" style = "padding:10px;">
+    <div class = "col-xs-4 col-md-2 col-md-offset-3" style = "background-color: #FFAE03; height: 2px;"></div>
+    <div class = "col-xs-4 col-md-2" style = "background-color: #c9302c; height: 2px;"></div>
+    <div class = "col-xs-4 col-md-2" style = "background-color: #2095f0; height: 2px;"></div>
+  </div>
+<div class = "row">
+  <div class = "col-xs-12 col-sm-6 col-md-3 " >
+    <h3>WHAT IS A HACKATHON?</h3>
+    <p id = "desc">A hackathon is a coding competition where students
+      will use code to solve a problem, that will be announced
+      at the competition, based on the theme of space whether it is
+      a website, an IOS app, or a game on Scratch.</p>
+  </div>
+
+  <div class = "col-xs-12 col-sm-6 col-md-3 " >
+    <h3>WHEN IS IT?</h3>
+    <p>The competition is on April 15, 2017 from 8:00am - 10:30pm.
+      You can find the full <a href="#schedule">schedule</a> below.</p>
+
+  </div>
+  <div class = "col-xs-12 col-sm-6 col-md-3 " >
+    <h3>WHERE IS IT?</h3>
+    <p>Hack HSV is taking place at Randolph Commons at Randolph School
+      in Huntsville, Alabama -
+      <a href="https://www.google.com/maps/place/4915+Garth+Rd+SE,+Huntsville,+AL+35802/@34.6958656,-86.5537766,17z/data=!3m1!4b1!4m5!3m4!1s0x88621310f829ed4b:0xef6ceb4e83ef1d0d!8m2!3d34.6958656!4d-86.5515826" target="_blank">
+        4915 Garth Rd SE, Huntsville, Alabama</a>
+    </p>
+  </div>
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>WHO CAN ATTEND HACK HSV?</h3>
+    <p>Anyone ages 13-18 from any part of the world can
+      <a href="https://camperregsecure.com/ranschool/index.php">register</a>.
+      If you love to solve problems and want to have a great time, then you
+      are welcome at Hack HSV.</p>
+
+  </div>
+</div>
+
+<div class = "row">
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>WHAT SHOULD I BRING?</h3>
+    <p>All you need to bring is a computer and charger to write your
+      brilliant code.</p>
+  </div>
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>DO I HAVE TO KNOW HOW TO CODE?</h3>
+    <p>Absolutely not! You just need to have a laptop and a smile in
+      order to code as we have plenty of mentors that will be there
+      to help you code from your first line, to your last!</p>
+  </div>
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>WHAT CAN I MAKE?</h3>
+    <p>You will be able to make anything you want from ios apps to websites
+      to virtual reality games. Note, that you will only be eligible to win
+      prizes if your final product falls under the theme of the competition.</p>
+  </div>
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>HOW MUCH DOES IT COST?</h3>
+    <p>Registering along with all food, T-Shirts,
+      and prizes are included in a cost of only $25!</p>
+  </div>
+</div>
+<div class = "row">
+  <div class = "col-xs-12 col-sm-6 col-md-3" >
+    <h3>I HAVE MORE QUESTIONS.</h3>
+    <p>If you have anymore questions, drop us a line at
+      <a href="mailto:hackhsv@gmail.com?Subject=Question%20About%20Hack%20HSV" target="_top">
+        hackhsv@gmail.com</a>
+    </p>
+  </div>
+</div>
+
+</div>
+
+<!--hr-->
+<div class = "container container-fluid" id = "pictures">
+  <div class = "col-xs-12 col-md-4" style = "background-color: #FFAE03; height: 2px;"></div>
+  <div class = "col-xs-12 col-md-4" style = "background-color: #c9302c; height: 2px;"></div>
+  <div class = "col-xs-12 col-md-4" style = "background-color: #2095f0; height: 2px;"></div>
+</div>
+
+<!--<div class = "container-fluid container" id = "footer" style = "height:50px; vertical-align: center; margin:0; padding:0; background-color: transparent;">
+  <div class = "col-md-4 col-xs-6" style = ""><span style = "color:white;" class="glyphicon glyphicon-map-marker">4915 Garth Rd SE, Huntsville, Alabama</span></div>
+  <div class = "col-md-4 col-xs-6" style = ""><span></span></div>
+  <div class = "col-md-4 col-xs-6" style = ""><span style = "color:white;" class="glyphicon glyphicon-envelope">hackhsv@gmail.com</span></div>
+</div>-->
+
+<script src="js/index.js"></script>
+
 
 </body>
 </html>
-

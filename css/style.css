@@ -9,7 +9,21 @@ html {
 body, html {
     height: 100%;
     margin: 0;
+
 }
+
+nav {
+    font-weight: 400;
+    position: fixed;
+    padding: -70px;
+
+}
+
+.navbar-default {
+    margin:0px;
+}
+
+
 
 .bg {
     /* The image used */
@@ -28,32 +42,33 @@ body, html {
 #title {
     position: absolute;
     vertical-align: center;
-    top: 50%;
+    top: 35%;
     left: 0;
     right: 0;
     color: #FFF;
     text-align: center;
     font-family: Helvetica;
     font-weight: 100;
-    font-size: 50px;
     letter-spacing: 10px;
-    margin-top: -60px;
     padding-left: 10px;
 }
 
-#title > span {
-  display: inline-block;
+
+#pictures {
+    margin:0px;
+    padding:0px;
 }
-#title > span > span {
+
+/*About*/
+div p{
+    font-weight: 400;
     font-size:20px;
-    letter-spacing: 7px;
 }
 
-#main {
-  color:white;
-  font-size: 100px;
+div h3 {
+    font-size:22x;
+    font-weight:900;
 }
-
 
 @media (max-width:710px) {
     #main {
@@ -81,93 +96,115 @@ body, html {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* About */
-#about {
-  height:auto;
-
+.container {
+    background-color: #f8f8f8;
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
-#content {
-  font-size: 32px;
-  line-height: 60px;
-  width:80%;
-}
 
-#changeText {
-  font-weight: 700;
-}
 
-#cursor {
-  font-weight: 100;
-  font-family: times;
-}
-
-/*Gallery */
- .images{
-  height:auto;
-  overflow: hidden;
-  overflow-x: auto;
-  margin: 0;
-  padding:0;
-  display: inline;
-}
-
-#gallery {
-    overflow: auto;
-    white-space: nowrap;
-    height:600px;
-    padding:0;
-}
-
-.col > img {
-  display: block;
-}
-
-.containerImage {
-    display: inline-block;
-    color: white;
+/*About*/
+h1 {
+    color: #b41a23;
     text-align: center;
-    padding: 0;
-    margin:0;
-    text-decoration: none;
-}
+    font-size: 50px;
 
-/*Video */
-video#vid {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  overflow: hidden;
-  background-size: cover;
-  float:left;
 }
 
 
-#video_overlays {
-position:absolute;
-float:left;
-width: 100%;
-height: 102%;
-margin-bottom:0px;
-background-color:rgba(0,0,0,0.4);
+
+#about {
+    background-color: #f8f8f8;
 }
 
+.container > p {
+    padding-right:10%;
+    padding-left:10%;
+    font-size: 30px;
+    text-align: center;
+    font-weight:300;
+    line-height: 160%;
+}
 
+#faq {
+    text-align: center;
+}
+
+/*Responsive Stuff*/
+
+/*Desktop/Large Computer */
+@media (max-width:1920px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+    li {
+        font-size: 25px;
+    }
+
+    #main {
+        font-size:150px;
+    }
+    #sub {
+        font-size:80px;
+    }
+
+    #title > span > span {
+        font-size:30px;
+    }
+}
+
+/*Normal Computer/Laptop */
+@media (max-width: 1500px) {
+    .navbar-brand {
+        font-size:20px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    #title {
+        font-size: 50px;
+    }
+
+    #title > span {
+        display: inline-block;
+    }
+
+    #title > span > span {
+        font-size: 20px;
+        letter-spacing: 7px;
+    }
+
+    #main {
+        color: white;
+        font-size: 100px;
+    }
+
+    #sub {
+        font-size:50px;
+    }
+}
+
+@media (max-width:800px) {
+    li {
+        font-size: 12px;
+    }
+
+    #main {
+        font-size:60px;
+    }
+    #sub {
+        font-size:50px;
+    }
+}
+
+/*iPhone 6+*/
+@media (max-width:414px){
+
+}
 
 
 
