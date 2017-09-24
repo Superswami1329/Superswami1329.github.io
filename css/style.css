@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica;
+  font-family: Helvetica, Arial;
   margin:0;
   font-weight: 100;
   background-color: #090a0f;
@@ -22,7 +22,6 @@ nav {
 .navbar-default {
     margin:0px;
 }
-
 
 
 .bg {
@@ -59,6 +58,10 @@ nav {
     padding:0px;
 }
 
+.headerbreak {
+    display: none;
+}
+
 /*About*/
 div p{
     font-weight: 400;
@@ -69,6 +72,7 @@ div h3 {
     font-size:22x;
     font-weight:900;
 }
+
 
 @media (max-width:710px) {
     #main {
@@ -112,6 +116,12 @@ h1 {
     font-size: 50px;
 
 }
+/*Fix header*/
+@media (min-width: 768px){
+    .rwd-break {
+        display: none;
+    }
+}
 
 
 
@@ -153,6 +163,10 @@ h1 {
     #title > span > span {
         font-size:30px;
     }
+    span>img {
+        height:226px;
+        width: 113px;
+    }
 }
 
 /*Normal Computer/Laptop */
@@ -186,6 +200,12 @@ h1 {
     #sub {
         font-size:50px;
     }
+
+    span>img {
+        height:200px;
+        width: 100px;
+    }
+
 }
 
 @media (max-width:800px) {
@@ -199,6 +219,10 @@ h1 {
     #sub {
         font-size:50px;
     }
+    span>img {
+        height:150px;
+        width:75px;
+    }
 }
 
 /*iPhone 6+*/
@@ -209,6 +233,11 @@ h1 {
     }
     #sub {
         font-size:40px;
+    }
+
+    span>img {
+        height:100px;
+        width:50px;
     }
 
     #title {
@@ -230,13 +259,27 @@ h1 {
     #about > p {
         line-height: 140%;
     }
+    span>img {
+        height:90px;
+        width: 45px;
+    }
 }
 
 @media (max-width: 320px) {
     #title {
         top:15%;
     }
+    span>img {
+        height:80px;
+        width: 40px;
+    }
 }
 
 
 
+
+.footText {
+    color:white;
+    font-size:20px;
+    text-align: center;
+}
