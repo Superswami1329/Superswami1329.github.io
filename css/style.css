@@ -41,7 +41,7 @@ nav {
 #title {
     position: absolute;
     vertical-align: center;
-    top: 35%;
+    top: 30%;
     left: 0;
     right: 0;
     color: #FFF;
@@ -52,6 +52,19 @@ nav {
     padding-left: 10px;
 }
 
+#register {
+    height:60px;
+    width: 160px;
+    font-size: 30px;
+    padding:10px;
+    border-radius:3px;
+    margin-bottom:50px;
+}
+
+ #link{
+    text-decoration: none;
+    color: white;
+}
 
 #pictures {
     margin:0px;
@@ -213,6 +226,10 @@ h1 {
         font-size: 12px;
     }
 
+    #title {
+        top:15%;
+    }
+
     #main {
         font-size:60px;
     }
@@ -241,7 +258,7 @@ h1 {
     }
 
     #title {
-        top: 25%;
+        top: 15%;
     }
     #title > span > span {
         font-size:20px;
@@ -267,11 +284,30 @@ h1 {
 
 @media (max-width: 320px) {
     #title {
-        top:15%;
+        top:10%;
     }
     span>img {
-        height:80px;
+        height: 80px;
         width: 40px;
+    }
+
+    #register {
+        font-size: 18px;
+        height:40px;
+        width:100px;
+    }
+
+    #main {
+        font-size:40px;
+
+    }
+
+    #sub {
+        font-size:30px;
+    }
+
+    #info{
+        font-size:15px;
     }
 }
 
