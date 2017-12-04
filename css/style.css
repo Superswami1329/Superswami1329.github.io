@@ -19,6 +19,10 @@ nav {
 
 }
 
+#title > p {
+    display: inline-block;
+}
+
 .navbar-default {
     margin:0px;
 }
@@ -112,7 +116,7 @@ div h3 {
     #sub {
         font-size: 30px;
     }
-    #title > span > span {
+    #title > div > span {
         font-size:15px;
     }
 
@@ -178,10 +182,10 @@ h1 {
         font-size:80px;
     }
 
-    #title > span > span {
+    #title > div > span {
         font-size:30px;
     }
-    span>img {
+    div>img {
         height:226px;
         width: 113px;
     }
@@ -201,11 +205,10 @@ h1 {
         font-size: 50px;
     }
 
-    #title > span {
-        display: inline-block;
+    #title > div {
     }
 
-    #title > span > span {
+    #title > div > span {
         font-size: 20px;
         letter-spacing: 7px;
     }
@@ -219,7 +222,7 @@ h1 {
         font-size:50px;
     }
 
-    span>img {
+    div>img {
         height:200px;
         width: 100px;
     }
@@ -241,14 +244,19 @@ h1 {
     #sub {
         font-size:50px;
     }
-    span>img {
+    div>img {
         height:150px;
         width:75px;
     }
 }
 
 /*iPhone 6+*/
-@media (max-width:414px){
+@media (max-width:415px){
+    #info {
+        line-height: 300%;
+        font-size: 200px;
+    }
+
     #main {
         font-size: 70px;
 
@@ -257,22 +265,30 @@ h1 {
         font-size:40px;
     }
 
-    span>img {
+    div>img {
         height:100px;
         width:50px;
     }
 
     #title {
-        top: 15%;
+        top: 10%;
     }
-    #title > span > span {
+    #title > div > span {
         font-size:20px;
+        line-height:10%;
+    }
+    #register {
+        width:75%;
     }
 
     #about > p {
         padding-right:5px;
         padding-left:5px;
         font-size:25px;
+    }
+    #info {
+        line-height: 300%;
+        font-size: 200px;
     }
 
 }
@@ -281,7 +297,7 @@ h1 {
     #about > p {
         line-height: 140%;
     }
-    span>img {
+    div>img {
         height:90px;
         width: 45px;
     }
@@ -291,7 +307,7 @@ h1 {
     #title {
         top:10%;
     }
-    span>img {
+    div>img {
         height: 80px;
         width: 40px;
     }
