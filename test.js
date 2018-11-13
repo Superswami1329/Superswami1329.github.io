@@ -86,6 +86,7 @@ var canvas = document.getElementById("inner_heading-canvas");
             draw() {
                 var grd=context.createRadialGradient(canvas.width*-0.1,canvas.width*-0.1,canvas.width/1.5,0,0,1);
                 grd.addColorStop(0,"#141B25");
+                grd.addColorStop(0.1,"#27334A");
                 grd.addColorStop(1.0,"red");
 
 
