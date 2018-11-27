@@ -344,7 +344,7 @@ h1 {
     }
 
     #main {
-        font-size: 70px;
+        font-size: 80px;
 
     }
     #sub {
@@ -407,11 +407,11 @@ h1 {
     #register {
         font-size: 18px;
         height:40px;
-        width:100px;
+        width:75%;
     }
 
     #main {
-        font-size:40px;
+        font-size:60px;
 
     }
 
