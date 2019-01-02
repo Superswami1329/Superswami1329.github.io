@@ -14,3 +14,19 @@ var text = ["C", "Co", "Cod", "Code", "Coder", "Coders", "Coders.", "Coders.","C
         counter++;
         if(counter >= text.length) { counter = 0; }
     }
+
+
+
+var acc = document.getElementsByClassName("faq_elem");
+for (var i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  console.log(this.clientHeight);
+  var panel = this.children[1];
+  if (panel.style.display === "block") {
+    panel.style.display = "none";
+  } else {
+    panel.style.display = "block";
+    }
+  });
+}

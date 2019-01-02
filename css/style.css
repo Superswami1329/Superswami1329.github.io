@@ -113,6 +113,28 @@ path {
     color:#6C6C6C;
 }
 
+.faq_elem {
+    cursor: pointer;
+    min-height:82px;
+}
+
+.faq_elem > h3 {
+    text-decoration: underline;
+    text-decoration-color: lightgray;
+}
+
+.faq_elem:hover {
+    background-color: lightgray;
+    transition:0.4s;
+    border-radius: 5px;
+}
+
+
+
+.faq_elem  > p {
+    display: none;
+}
+
 
 .bg {
     /* The image used */
